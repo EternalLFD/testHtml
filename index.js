@@ -3,6 +3,7 @@
 
 	box.onclick = (e) => {
 		if (e.target.classList.contains("item")) {
+			console.error(1);
 			console.error(2);
 		}
 	};
